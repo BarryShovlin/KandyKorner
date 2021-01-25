@@ -1,7 +1,7 @@
 import React from "react"
-import "./location.css"
+import "./Location.css"
 
-export const locationCard = (props) => (
+export const LocationCard = (props) => (
     <section classname="location">
         <h3 className="location__address">{props.location.address}</h3>
         <div className="location__footage">{props.location.square_footage}</div>
